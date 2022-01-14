@@ -1,0 +1,9 @@
+python -m venv venv
+venv\Scripts\activate
+pip install django
+django-admin startproject mysite
+python manage.py startapp polls
+pip install djangorestframework
+python manage.py runserver
+#https://www.django-rest-framework.org/api-guide/views/
+https://www.django-rest-framework.org/tutorial/2-requests-and-responses/
